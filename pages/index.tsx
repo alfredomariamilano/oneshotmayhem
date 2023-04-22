@@ -51,6 +51,7 @@ export default function Home() {
           component='h1'
           lineHeight={'inherit'}
           fontWeight={'inherit'}
+          fontFamily={'inherit'}
           fontSize={'5rem'}
         >
           {'ONE-SHOT'}
@@ -60,7 +61,8 @@ export default function Home() {
           component='h1'
           lineHeight={'inherit'}
           fontWeight={'inherit'}
-          fontSize={'6.2rem'}
+          fontFamily={'inherit'}
+          fontSize={'6rem'}
         >
           {'MAYHEM'}
         </Typography>
@@ -69,7 +71,8 @@ export default function Home() {
           component='h1'
           lineHeight={'inherit'}
           fontWeight={'inherit'}
-          fontSize={'2.58rem'}
+          fontFamily={'inherit'}
+          fontSize={'2.52rem'}
         >
           {'Dungeons & Dragons'}
         </Typography>
