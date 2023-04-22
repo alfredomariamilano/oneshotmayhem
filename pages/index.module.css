@@ -9,3 +9,22 @@
   position: relative;
   z-index: 1;
 }
+
+.masonry {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.masonry:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(var(--background), 0.9);
+}

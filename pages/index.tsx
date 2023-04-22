@@ -133,23 +133,7 @@ export default function Home() {
       </Box>
 
       <Box
-        position='fixed'
-        top={0}
-        left={0}
-        width={'100vw'}
-        height={'100vh'}
-        zIndex={-1}
-        sx={{
-          ':after': {
-            content: '""',
-            position: 'absolute',
-            top: 0,
-            left: 0,
-            bottom: 0,
-            right: 0,
-            background: 'rgba(var(--background), 0.85)'
-          }
-        }}
+        className={css.masonry}
       >
         <Masonry
           columns={{ xs: 1, sm: 2, md: 3, lg: 4, xl: 5 }}
