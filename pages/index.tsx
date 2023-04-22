@@ -93,29 +93,40 @@ export default function Home() {
         </Typography>
 
         <Typography marginBottom={'1rem'} fontSize={'1.25rem'} lineHeight={1.1}>
-          {'Do you like dragons, wizards and swords? Do you want to live an epic story with your friends? Then don\'t miss the “One-Shot Mayhem” event, where you can play "Double and Dragon" in a short and epic game (between 3 and 4 hours). It doesn\'t matter if you are an expert or a novice, you just need to want to have fun and let your imagination run wild. The event will be held in English, so you can also practice the language while you play.'}
-
-          {'There will be individual tables of 4 or 5 players, each with their own narrator (Dungeon Master) who will guide you through the adventure. If you want to be the narrator, you are also welcome, you just have to tell us.'}
+          {'Do you want to learn how to play Dungeons and Dragons or just have a day of fun with other English-speaking people? On May 6th in Iván de Vargas Library, we are organizing a one-shot mayhem (an event filled with short D&D adventures) that you can join, play, or learn while playing.'}
+          <br/>
+          <br/>
+          {'Each table will have a Dungeon Master that will guide 4 to 5 players per game. The space is small so please register as soon as possible not to miss this opportunity.'}
+          <br/>
+          <br/>
+          {'This event is reserved for people 15 or older. And all are welcome if they just want to watch.'}
+          <br/>
+          <br/>
+          {'- Date: May 6th'}
+          <br/>
+          {'- Time: 9:00 a.m. to 3:00 p.m.'}
+          <br/>
+          {'- Venue: Iván de Vargas Library'}
         </Typography>
 
         <Typography marginBottom={'1rem'} fontSize={'1.25rem'} lineHeight={1.1}>
-          {'To register for the next event in Madrid, head to '}
+          {'Please register '}
           <Link
             target="_blank"
             href='https://bibliotecas.madrid.es/portales/bibliotecas/es/En-portada/One-Shot-Mayhem-partida-corta-de-rol-de-Dragones-y-Mazmorras/?vgnextfmt=default&vgnextoid=a985f5d623f77810VgnVCM1000001d4a900aRCRD&vgnextchannel=dd0a0b6eb5cb3510VgnVCM1000008a4a900aRCRD'
           >
-            {'this link'}
+            {'here'}
           </Link>
           {'.'}
         </Typography>
         
         <Typography fontSize={'1.25rem'} lineHeight={1.1}>
-          {'To request a library card, head to '}
+          {'You will need a library card, but you can request one for free '}
           <Link
             target="_blank"
             href='https://sede.madrid.es/portal/site/tramites/menuitem.62876cb64654a55e2dbd7003a8a409a0/?vgnextoid=0692da34feaed010VgnVCM2000000c205a0aRCRD&vgnextchannel=23a99c5ffb020310VgnVCM100000171f5a0aRCRD&vgnextfmt=default'
           >
-            {'this link'}
+            {'here'}
           </Link>
           {'.'}
         </Typography>
