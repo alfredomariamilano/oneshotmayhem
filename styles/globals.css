@@ -3,19 +3,33 @@
 @tailwind utilities;
 
 :root {
-  --background: 220, 220, 220;
-  --color: 30, 30, 30;
-  --font-size: 16px;
+  --background: 230, 230, 230;
+  --color: 20, 20, 20;
+  --font-size: 12px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color: 220, 220, 220;
-    --background: 30, 30, 30;
+    --color: 230, 230, 230;
+    --background: 20, 20, 20;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  :root {
+    --font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  :root {
+    --font-size: 16px;
   }
 }
 
 html,
 body {
+  color: rgb(var(--color));
+  background-color: rgb(var(--background));
   font-size: var(--font-size);
 }

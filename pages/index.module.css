@@ -1,4 +1,11 @@
 .main {
-  color: rgb(var(--color));
-  background-color: rgb(var(--background));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  width: 50rem;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
 }
