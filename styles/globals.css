@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 220, 220, 220;
+  --color: 30, 30, 30;
+  --font-size: 16px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color: 220, 220, 220;
+    --background: 30, 30, 30;
+  }
+}
+
+html,
+body {
+  font-size: var(--font-size);
+}

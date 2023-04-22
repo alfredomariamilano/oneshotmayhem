@@ -1,0 +1,4 @@
+.main {
+  color: rgb(var(--color));
+  background-color: rgb(var(--background));
+}
