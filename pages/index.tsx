@@ -89,13 +89,13 @@ export default function Home() {
           >Biblioteca Pública Municipal Iván de Vargas</Link>
         </Typography>
 
-        <Typography marginBottom={'1rem'}>
+        <Typography marginBottom={'1rem'} fontSize={'1.25rem'} lineHeight={1.1}>
           {'Do you like dragons, wizards and swords? Do you want to live an epic story with your friends? Then don\'t miss the “One-Shot Mayhem” event, where you can play "Double and Dragon" in a short and epic game (between 3 and 4 hours). It doesn\'t matter if you are an expert or a novice, you just need to want to have fun and let your imagination run wild. The event will be held in English, so you can also practice the language while you play.'}
 
           {'There will be individual tables of 4 or 5 players, each with their own narrator (Dungeon Master) who will guide you through the adventure. If you want to be the narrator, you are also welcome, you just have to tell us.'}
         </Typography>
 
-        <Typography marginBottom={'1rem'}>
+        <Typography marginBottom={'1rem'} fontSize={'1.25rem'} lineHeight={1.1}>
           {'To register for the next event in Madrid, head to '}
           <Link
             target="_blank"
@@ -106,7 +106,7 @@ export default function Home() {
           {'.'}
         </Typography>
         
-        <Typography>
+        <Typography fontSize={'1.25rem'} lineHeight={1.1}>
           {'To request a library card, head to '}
           <Link
             target="_blank"
