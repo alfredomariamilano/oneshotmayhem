@@ -17,9 +17,6 @@ export default function Home() {
       .then((res) => res.json())
       .then((photos) => {
         setPhotos(photos)
-        console.log('====================================');
-        console.log(photos);
-        console.log('====================================');
       })
   }, [])
 
