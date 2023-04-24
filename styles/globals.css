@@ -5,13 +5,19 @@
 :root {
   --background: 230, 230, 230;
   --color: 20, 20, 20;
-  --font-size: 12px;
+  --font-size: 11px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --color: 230, 230, 230;
     --background: 20, 20, 20;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  :root {
+    --font-size: 12px;
   }
 }
 

@@ -1,13 +1,18 @@
 .main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 1.5rem;
   width: 50rem;
   max-width: 100%;
   margin: 0 auto;
   position: relative;
   z-index: 1;
+}
+
+.innerContainer {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: rgba(var(--background), 0.9);
 }
 
